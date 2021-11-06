@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import "./Home.css";
 import logo from "./img/logo.png";
 
@@ -9,13 +9,13 @@ function Home() {
     header.classList.toggle("active", window.scrollY > 0);
   });
   // Toogle Menu
-   const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
   return (
     <div className="home" id="Home">
       <div className="home__bg">
         <div className="header d__flex align__items__center pxy__30">
           <div className="logo">
-            <img src={logo} alt="" />
+            {/* <img src={logo} alt="" /> <button className="btn">Manoj</button> */}
           </div>
           <div className="navigation pxy__30">
             <ul className="navbar d__flex">
@@ -25,15 +25,15 @@ function Home() {
               <a href="#About">
                 <li className="nav__items mx__15">About</li>
               </a>
-              <a href="#Services">
-                <li className="nav__items mx__15">Services</li>
+              <a href="#Resume">
+                <li className="nav__items mx__15">Resume</li>
               </a>
-              <a href="#Portfolio">
-                <li className="nav__items mx__15">Portfolio</li>
+              <a href="#Projects">
+                <li className="nav__items mx__15">Projects</li>
               </a>
-              <a href="#Blog">
+              {/* <a href="#Blog">
                 <li className="nav__items mx__15">Blog</li>
-              </a>
+              </a> */}
               <a href="#Contact">
                 <li className="nav__items mx__15">Contact</li>
               </a>
@@ -41,7 +41,8 @@ function Home() {
           </div>
           {/* Toogle Menu */}
           <div className="toggle__menu">
-            <svg onClick={() => setShow(!show)}
+            <svg
+              onClick={() => setShow(!show)}
               xmlns="http://www.w3.org/2000/svg"
               width="16"
               height="16"
@@ -55,39 +56,37 @@ function Home() {
               />
             </svg>
           </div>
-          {show ?(
-          <div className="sideNavbar">
+          {show ? (
+            <div className="sideNavbar">
               <ul className="sidebar d__flex">
-              <li className="sideNavbar">
-              <a href="#home">Home</a>
-            </li>
-            <li className="sideNavbar">
-              <a href="#about">About</a>
-            </li>
-            <li className="sideNavbar">
-              <a href="#services">Services</a>
-            </li>
-            <li className="sideNavbar">
-              <a href="#portfolio">Portfolio</a>
-            </li>
-            <li className="sideNavbar">
-              <a href="#blog">Blog</a>
-            </li>
-            <li className="sideNavbar">
-              <a href="#contact">Contact</a>
-            </li>
+                <li className="sideNavbar">
+                  <a href="#Home">Home</a>
+                </li>
+                <li className="sideNavbar">
+                  <a href="#About">About</a>
+                </li>
+                <li className="sideNavbar">
+                  <a href="#Resume">Resume</a>
+                </li>
+                <li className="sideNavbar">
+                  <a href="#Projects">Project</a>
+                </li>
+                
+                <li className="sideNavbar">
+                  <a href="#Contact">Contact</a>
+                </li>
               </ul>
-          </div>
-           ) : null}
+            </div>
+          ) : null}
         </div>
         {/* HOME CONTENT */}
         <div className="container">
           <div className="home__content">
             <div className="home__meta">
               <h1 className="home__text pz__10">WELCOME TO MY WORLD</h1>
-              <h2 className="home__text pz__10">Hi, I’m Jone Doe</h2>
-              <h3 className="home__text sweet pz__10">JS Developer.</h3>
-              <h4 className="home__text pz__10">based in USA.</h4>
+              <h2 className="home__text pz__10">Hi, I’m Manojkumar</h2>
+              <h3 className="home__text sweet pz__10">Software Developer.</h3>
+              <h4 className="home__text pz__10">based in India.</h4>
             </div>
           </div>
         </div>
