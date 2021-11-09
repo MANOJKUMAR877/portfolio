@@ -1,10 +1,11 @@
 import React from "react";
 import "./Project.css";
-import Project1 from "./img/portfolio-1.jpg";
-import Project2 from "./img/portfolio-2.jpg";
-import Project3 from "./img/portfolio-3.jpg";
-import Project4 from "./img/portfolio-4.jpg";
-
+import Project1 from "./img/HRMS.jpg";
+import Project2 from "./img/room.jpg";
+import Project3 from "./img/e1.jpeg";
+import Project4 from "./img/4.png";
+import Project5 from "./img/5.jpeg";
+import Project6 from "./img/6.jpeg";
 function Project() {
   return (
     <div className="project component__space" id="Projects">
@@ -23,9 +24,31 @@ function Project() {
                 <div className="mask__effect"></div>
               </div>
               <div className="project__meta absolute">
-                <h5 className="project__text">Development</h5>
                 <h4 className="project__text">
+                  Human Resource Management System
+                </h4>
+                {/* <p className="project__text">
                   Getting tickets to the big show
+                </p> */}
+                {/* <a href="#" className="project__btn">
+                  View Details
+                </a> */}
+              </div>
+            </div>
+          </div>
+
+          <div className="col__3">
+            <div className="project__box pointer relative">
+              <div className="project__box__img pointer relative">
+                <div className="project__img__box" style={{width:"100%"}}>
+                  <img src={Project3} alt="" className="project__img" />
+                </div>
+                <div className="mask__effect"></div>
+              </div>
+              <div className="project__meta absolute">
+                
+                <h4 className="project__text">
+                 E-Commerce Web App
                 </h4>
                 {/* <a href="#" className="project__btn">
                   View Details
@@ -43,30 +66,8 @@ function Project() {
                 <div className="mask__effect"></div>
               </div>
               <div className="project__meta absolute">
-                <h5 className="project__text">Development</h5>
-                <h4 className="project__text">
-                  Getting tickets to the big show
-                </h4>
-                {/* <a href="#" className="project__btn">
-                  View Details
-                </a> */}
-              </div>
-            </div>
-          </div>
+                <h4 className="project__text">Room Booking System</h4>
 
-          <div className="col__3">
-            <div className="project__box pointer relative">
-              <div className="project__box__img pointer relative">
-                <div className="project__img__box">
-                  <img src={Project3} alt="" className="project__img" />
-                </div>
-                <div className="mask__effect"></div>
-              </div>
-              <div className="project__meta absolute">
-                <h5 className="project__text">Development</h5>
-                <h4 className="project__text">
-                  Getting tickets to the big show
-                </h4>
                 {/* <a href="#" className="project__btn">
                   View Details
                 </a> */}
@@ -83,9 +84,9 @@ function Project() {
                 <div className="mask__effect"></div>
               </div>
               <div className="project__meta absolute">
-                <h5 className="project__text">Development</h5>
+               
                 <h4 className="project__text">
-                  Getting tickets to the big show
+                 Online Quizz APP
                 </h4>
                 {/* <a href="#" className="project__btn">
                   View Details
@@ -98,14 +99,14 @@ function Project() {
             <div className="project__box pointer relative">
               <div className="project__box__img pointer relative">
                 <div className="project__img__box">
-                  <img src={Project3} alt="" className="project__img" />
+                  <img src={Project5} alt="" className="project__img" />
                 </div>
                 <div className="mask__effect"></div>
               </div>
               <div className="project__meta absolute">
-                <h5 className="project__text">Development</h5>
+               
                 <h4 className="project__text">
-                  Getting tickets to the big show
+                 Real Time Chat APP
                 </h4>
                 {/* <a href="#" className="project__btn">
                   View Details
@@ -118,14 +119,14 @@ function Project() {
             <div className="project__box pointer relative">
               <div className="project__box__img pointer relative">
                 <div className="project__img__box">
-                  <img src={Project4} alt="" className="project__img" />
+                  <img src={Project6} alt="" className="project__img" />
                 </div>
                 <div className="mask__effect"></div>
               </div>
               <div className="project__meta absolute">
-                <h5 className="project__text">Development</h5>
+                {/* <h5 className="project__text"></h5> */}
                 <h4 className="project__text">
-                  Getting tickets to the big show
+                  Kinetic Temperature Sensing Robot
                 </h4>
                 {/* <a href="#" className="project__btn">
                   View Details
