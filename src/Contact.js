@@ -14,14 +14,7 @@ function Contact() {
               </p>
               <p className="hire__text white">
                 <strong>+91 8778780507</strong> or email{" "}
-                <strong
-                  style={{ cursor: "pointer" }}
-                  onClick={() => {
-                    navigator.clipboard.writeText(
-                      "kbmanojkumar.20cs@gmail.com"
-                    );
-                  }}
-                >
+                <strong style={{ cursor: "pointer" }}>
                   kbmanojkumar.20cs@gmail.com
                 </strong>
               </p>

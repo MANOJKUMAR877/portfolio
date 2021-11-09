@@ -5,7 +5,7 @@ function Service() {
   return (
     <div className="service component__space" id="Resume">
       <div className="heading">
-        <h1 className="heading">My Awesome Service</h1>
+        <h1 className="heading">My Awesome Contributions</h1>
         {/* <p className="heading p__color">
           There are many variations of passages of Lorem Ipsum available,
         </p>

@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
 import aboutImg from "./img/manoj.jpg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function About() {
   //  Up To Top Btn
   window.addEventListener("scroll", function () {
@@ -39,11 +40,12 @@ function About() {
                 reviewing user stories and technical specifications.
               </p>
               <div className="about__button d__flex align__items__center">
-                <a href="#">
-                  <button className="about btn pointer">Download Cv</button>
+                <a href="https://www.instagram.com/manojkumar_baskaran/" target="_blank">
+                  <button className="about btn pointer">Instagram</button>
                 </a>
-                <a href="#">
-                  <button className="about btn pointer">Hire Me</button>
+                {/* <i class="fab fa-instagram"></i> */}
+                <a href="https://www.linkedin.com/in/manojkumar-k-b-1a2a40150/" target="_blank">
+                  <button className="about btn pointer">Linked In</button>
                 </a>
               </div>
             </div>
