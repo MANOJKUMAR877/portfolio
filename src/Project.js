@@ -40,16 +40,13 @@ function Project() {
           <div className="col__3">
             <div className="project__box pointer relative">
               <div className="project__box__img pointer relative">
-                <div className="project__img__box" style={{width:"100%"}}>
+                <div className="project__img__box" style={{ width: "100%" }}>
                   <img src={Project3} alt="" className="project__img" />
                 </div>
                 <div className="mask__effect"></div>
               </div>
               <div className="project__meta absolute">
-                
-                <h4 className="project__text">
-                 E-Commerce Web App
-                </h4>
+                <h4 className="project__text">E-Commerce Web App</h4>
                 {/* <a href="#" className="project__btn">
                   View Details
                 </a> */}
@@ -84,10 +81,7 @@ function Project() {
                 <div className="mask__effect"></div>
               </div>
               <div className="project__meta absolute">
-               
-                <h4 className="project__text">
-                 Online Quizz APP
-                </h4>
+                <h4 className="project__text">Online Quizz APP</h4>
                 {/* <a href="#" className="project__btn">
                   View Details
                 </a> */}
@@ -104,10 +98,7 @@ function Project() {
                 <div className="mask__effect"></div>
               </div>
               <div className="project__meta absolute">
-               
-                <h4 className="project__text">
-                 Real Time Chat APP
-                </h4>
+                <h4 className="project__text">Real Time Chat APP</h4>
                 {/* <a href="#" className="project__btn">
                   View Details
                 </a> */}
