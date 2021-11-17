@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import aboutImg from "./img/manoj.jpg";
-import report from "./img/report.pdf";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function About() {
   //  Up To Top Btn
@@ -53,9 +53,6 @@ function About() {
                   target="_blank"
                 >
                   <button className="about btn pointer">Linked In</button>
-                </a>
-                <a href={report} target="_blank">
-                  Final year Report{" "}
                 </a>
               </div>
             </div>

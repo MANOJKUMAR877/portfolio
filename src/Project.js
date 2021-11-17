@@ -6,6 +6,7 @@ import Project3 from "./img/e1.jpeg";
 import Project4 from "./img/4.png";
 import Project5 from "./img/5.jpeg";
 import Project6 from "./img/6.jpeg";
+import report from "./img/report.pdf";
 function Project() {
   return (
     <div className="project component__space" id="Projects">
@@ -27,6 +28,13 @@ function Project() {
                 <h4 className="project__text">
                   Human Resource Management System
                 </h4>
+                <a href={report} target="_blank">
+                  <button
+                    style={{ border: "none", width: "30rem", color:"red" }}
+                  >
+                    Click Here to download thesis
+                  </button>
+                </a>
                 {/* <p className="project__text">
                   Getting tickets to the big show
                 </p> */}
