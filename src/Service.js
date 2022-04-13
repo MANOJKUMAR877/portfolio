@@ -37,9 +37,9 @@ function Service() {
               </div>
               <div className="service__meta">
                 <h1 className="service__text">
-                  Software Developer - (PRLX WEB)
+                  Software Developer - (Kyra Technology by PRLX WEB)
                 </h1>
-                <h1 className="service__text">From (02/06/2021 - till date)</h1>
+                <h1 className="service__text">From (02/06/2021 - 31/01/2022)</h1>
                 <p className="p service__text p__color">
                   Researching, designing, implementing, and managing software
                   programs Testing and evaluating new programs. Identifying
@@ -165,10 +165,40 @@ function Service() {
               </div>
               <div className="service__meta">
                 <h1 className="service__text">
-                  BE Computer Science and Engineering
+                  BE - Computer Science and Engineering
                 </h1>
                 <p className="p service__text p__color">
                   At Sri Ramakrishna Institute Of Technology - (From 2016-2020)
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col__3">
+            <div className="service__box pointer">
+              <div className="icon">
+                <svg
+                  stroke="currentColor"
+                  fill="none"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  height="1em"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+              </div>
+              <div className="service__meta">
+                <h1 className="service__text">
+                  M.Engg - Software Engineering for Industrial Application
+                </h1>
+                <p className="p service__text p__color">
+                  At Hof University of Applied Science - (From 2022-2024)
                 </p>
               </div>
             </div>

@@ -13,7 +13,7 @@ function Contact() {
                 I am available for freelance work. Connect with me via phone:
               </p>
               <p className="hire__text white">
-                <strong>+91 8778780507</strong> or email{" "}
+                <strong>+91 8778780507 / +49 1512 4646313</strong> or email{" "}
                 <strong style={{ cursor: "pointer" }}>
                   kbmanojkumar.20cs@gmail.com
                 </strong>
