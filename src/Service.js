@@ -198,7 +198,7 @@ function Service() {
                   M.Engg - Software Engineering for Industrial Application
                 </h1>
                 <p className="p service__text p__color">
-                  At Hof University of Applied Science - (From 2022-2024)
+                  At Hof University of Applied Sciences - (From 2022-2024)
                 </p>
               </div>
             </div>
